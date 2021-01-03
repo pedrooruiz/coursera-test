@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	background-color: grey;
+}
+.container-fluid{
+	background-color: grey;
+}
+#navbarTogglerDemo02{
+	background-color: white;
+	text-align: center;
+}
+
+h1{
+	text-align: left;
+}
+
+@media(min-width: 991px){
+	#navbarTogglerDemo02{
+		visibility:hidden;
+	}
+}
+
+@media(min-width: 769px){
+	button{
+		visibility: hidden;
+	}
+}
